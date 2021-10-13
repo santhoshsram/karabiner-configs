@@ -52,6 +52,25 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Left Mouse  Button5 to Browser forward.",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "pointing_button": "button5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -226,11 +245,11 @@
             "simple_modifications": [
                 {
                     "from": {
-                        "key_code": "right_command"
+                        "key_code": "application"
                     },
                     "to": [
                         {
-                            "apple_vendor_keyboard_key_code": "mission_control"
+                            "key_code": "right_option"
                         }
                     ]
                 },
@@ -251,6 +270,26 @@
                     "to": [
                         {
                             "key_code": "left_command"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_command"
+                    },
+                    "to": [
+                        {
+                            "apple_vendor_keyboard_key_code": "mission_control"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_option"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_command"
                         }
                     ]
                 }

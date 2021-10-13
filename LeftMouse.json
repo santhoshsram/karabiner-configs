@@ -1,0 +1,25 @@
+{
+  "title": "Left Mouse",
+  "rules": [
+    {
+       "description": "Left Mouse  Button5 to Browser forward.",
+       "manipulators": [
+          {
+             "type": "basic",
+             "from": {
+                "pointing_button": "button5"
+             },
+             "to": [
+                {
+                   "key_code": "right_arrow",
+                   "modifiers": [
+                      "left_command"
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+  ]
+}
+
